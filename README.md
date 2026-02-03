@@ -1,4 +1,4 @@
-💒 Invitación de Boda Digital - Paulina & Daniel
+💒 Invitación de Boda Digital - Berenice & Oliver
 Invitación web elegante con diseño inspirado en invitaciones botánicas de alta calidad, con peonías y eucalipto.
 
 🎨 Cambios Principales Implementados

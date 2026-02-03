@@ -102,11 +102,11 @@ function initMusic() {
 // CUENTA REGRESIVA - CORREGIDA
 // ===================================
 function initCountdown() {
-    // Fecha: 19 de diciembre de 2025, 19:00 hrs (7:00 PM)
-    const weddingYear = 2025;
-    const weddingMonth = 11; // Diciembre (0=enero, 11=diciembre)
-    const weddingDay = 19;
-    const weddingHour = 19;
+    // Fecha: 30 de mayo de 2026, 17:00 hrs (5:00 PM)
+    const weddingYear = 2026;
+    const weddingMonth = 4; // Mayo (0=enero, 4=mayo)
+    const weddingDay = 30;
+    const weddingHour = 17;
     const weddingMinute = 0;
 
     const weddingDate = new Date(weddingYear, weddingMonth, weddingDay, weddingHour, weddingMinute, 0).getTime();
