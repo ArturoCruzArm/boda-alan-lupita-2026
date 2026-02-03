@@ -17,6 +17,12 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-heart">💒</div>
+        <p class="loading-text">Berenice & Oliver</p>
+    </div>
+
     <!-- Música de fondo -->
     <audio id="background-music" loop>
         <source src="musica-fondo.mp3" type="audio/mpeg">
@@ -26,6 +32,22 @@
     <button id="music-toggle" class="music-btn" aria-label="Controlar música">
         <i id="music-icon" class="fas fa-volume-mute"></i>
     </button>
+
+    <!-- Navigation Dots -->
+    <nav class="nav-dots" id="navDots" aria-label="Navegación de secciones">
+        <button class="nav-dot active" data-section="initial" data-label="Inicio" aria-label="Ir a inicio"></button>
+        <button class="nav-dot" data-section="parents" data-label="Padres" aria-label="Ir a padres"></button>
+        <button class="nav-dot" data-section="quote" data-label="Mensaje" aria-label="Ir a mensaje"></button>
+        <button class="nav-dot" data-section="countdown" data-label="Cuenta Regresiva" aria-label="Ir a cuenta regresiva"></button>
+        <button class="nav-dot" data-section="ceremony" data-label="Ceremonia" aria-label="Ir a ceremonia"></button>
+        <button class="nav-dot" data-section="civil" data-label="Boda Civil" aria-label="Ir a boda civil"></button>
+        <button class="nav-dot" data-section="reception" data-label="Recepción" aria-label="Ir a recepción"></button>
+        <button class="nav-dot" data-section="dresscode" data-label="Vestimenta" aria-label="Ir a vestimenta"></button>
+        <button class="nav-dot" data-section="gifts" data-label="Regalos" aria-label="Ir a regalos"></button>
+        <button class="nav-dot" data-section="social" data-label="Redes" aria-label="Ir a redes sociales"></button>
+        <button class="nav-dot" data-section="rsvp" data-label="Confirmar" aria-label="Ir a confirmación"></button>
+        <button class="nav-dot" data-section="info" data-label="Info" aria-label="Ir a información"></button>
+    </nav>
 
     <!-- FIXED DECORATIONS - Stay in place throughout entire page -->
     <div class="fixed-background">

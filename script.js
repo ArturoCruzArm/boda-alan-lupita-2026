@@ -5,12 +5,37 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('%c💍 ¡Bienvenido a nuestra invitación de boda! 💍',
         'font-size: 20px; color: #4A6B54; font-weight: bold;');
 
+    // Inicializar loading screen
+    initLoadingScreen();
+
     initMusic();
     initCountdown();
     initContentTransitions();
     initScrollAnimations();
     initSmoothScroll();
+    initNavigationDots();
+    initScrollIndicators();
 });
+
+// ===================================
+// LOADING SCREEN
+// ===================================
+function initLoadingScreen() {
+    const loadingScreen = document.getElementById('loadingScreen');
+    if (!loadingScreen) return;
+
+    // Ocultar loading screen después de que todo cargue
+    window.addEventListener('load', function() {
+        setTimeout(function() {
+            loadingScreen.classList.add('hidden');
+        }, 1500); // 1.5 segundos de loading
+    });
+
+    // Fallback por si load no se dispara
+    setTimeout(function() {
+        loadingScreen.classList.add('hidden');
+    }, 3000);
+}
 
 // ===================================
 // MÚSICA DE FONDO
@@ -720,3 +745,106 @@ style.textContent = `
 document.head.appendChild(style);
 
 console.log('%c✨ Invitación cargada exitosamente ✨', 'font-size: 14px; color: #D4AF37; font-weight: bold;');
+
+// ===================================
+// NAVIGATION DOTS
+// ===================================
+function initNavigationDots() {
+    const navDots = document.querySelectorAll('.nav-dot');
+    const sections = document.querySelectorAll('.content-section');
+
+    if (navDots.length === 0 || sections.length === 0) return;
+
+    // Click en dots para navegar
+    navDots.forEach(dot => {
+        dot.addEventListener('click', function() {
+            const targetSection = this.dataset.section;
+            const target = document.querySelector(`[data-section="${targetSection}"]`);
+
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'center'
+                });
+            }
+        });
+    });
+
+    // Actualizar dot activo al hacer scroll
+    const observerOptions = {
+        threshold: 0.5,
+        rootMargin: '-10% 0px -10% 0px'
+    };
+
+    const observer = new IntersectionObserver(function(entries) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const sectionName = entry.target.dataset.section;
+
+                // Remover active de todos los dots
+                navDots.forEach(dot => dot.classList.remove('active'));
+
+                // Agregar active al dot correspondiente
+                const activeDot = document.querySelector(`.nav-dot[data-section="${sectionName}"]`);
+                if (activeDot) {
+                    activeDot.classList.add('active');
+                }
+            }
+        });
+    }, observerOptions);
+
+    sections.forEach(section => {
+        observer.observe(section);
+    });
+
+    console.log('✅ Navegación con dots inicializada');
+}
+
+// ===================================
+// SCROLL INDICATORS (Click to scroll)
+// ===================================
+function initScrollIndicators() {
+    const scrollIndicators = document.querySelectorAll('.scroll-indicator');
+
+    scrollIndicators.forEach(indicator => {
+        indicator.addEventListener('click', function() {
+            const currentSection = this.closest('.content-section');
+            if (currentSection) {
+                const nextSection = currentSection.nextElementSibling;
+                if (nextSection && nextSection.classList.contains('content-section')) {
+                    nextSection.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'center'
+                    });
+                } else {
+                    // Si no hay siguiente sección, ir al footer
+                    const footer = document.querySelector('.footer');
+                    if (footer) {
+                        footer.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                }
+            }
+        });
+    });
+
+    console.log('✅ Indicadores de scroll inicializados');
+}
+
+// ===================================
+// TOGGLE MÚSICA - Clase para tooltip
+// ===================================
+const musicBtn = document.getElementById('music-toggle');
+const backgroundMusic = document.getElementById('background-music');
+
+if (musicBtn && backgroundMusic) {
+    backgroundMusic.addEventListener('play', function() {
+        musicBtn.classList.add('playing');
+    });
+
+    backgroundMusic.addEventListener('pause', function() {
+        musicBtn.classList.remove('playing');
+    });
+}
