@@ -1,5 +1,5 @@
-💒 Invitación de Boda Digital - Berenice & Oliver
-# Boda: 30 de Mayo de 2026 - León, Guanajuato
+💒 Invitación de Boda Digital - Alan & Lupita
+# Boda: 23 de Mayo de 2026 - León, Guanajuato
 Invitación web elegante con diseño inspirado en invitaciones botánicas de alta calidad, con peonías y eucalipto.
 
 🎨 Cambios Principales Implementados
@@ -81,7 +81,7 @@ Puedes usar un emoji: 💍 o 💐
 1. Estructura de Archivos
 Asegúrate de tener esta estructura:
 
-boda-berenice-oliver/
+boda-lupita-alan/
 ├── index.html
 ├── styles.css
 ├── script.js
@@ -102,13 +102,13 @@ git add .
 git commit -m "Invitación de boda - Diseño actualizado"
 
 # 3. Conectar con GitHub
-git remote add origin https://github.com/ArturoCruzArm/invitacion-boda-berenice-mateus.git
+git remote add origin https://github.com/ArturoCruzArm/boda-alan-lupita-2026.git
 git branch -M main
 git push -u origin main
 
 # 4. Activar GitHub Pages
 # Ve a: Settings → Pages → Source: main branch → Save
-Tu sitio estará en: https://boda-berenice-oliver.invitados.org/
+Tu sitio estará en: https://boda-alan-lupita.invitados.org/
 
 3. Opcional: Dominio Personalizado
 Si quieres un dominio personalizado:
@@ -282,5 +282,5 @@ Crea un código QR con tu URL
 Envía por email
 ¡Felicidades por tu boda! 💑✨
 
-Desarrollado con amor para Berenice & Oliver - 30 de Mayo, 2026
+Desarrollado con amor para Alan & Lupita - 23 de Mayo, 2026
 

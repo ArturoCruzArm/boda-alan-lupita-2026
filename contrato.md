@@ -11,11 +11,11 @@
 
 ## PARTE CONTRATANTE (EL CLIENTE)
 
-**Nombre completo:** Patricia Berenice Martinez Becerra
+**Nombre completo:** Patricia Lupita Martinez Becerra
 **Domicilio:** Veracruz 1716, León, Guanajuato
 **Teléfono:** +52 1 477 591 6373
 
-**Nombre completo:** Mateus Sebastian Oliver Cordova Huerta
+**Nombre completo:** Mateus Sebastian Alan Cordova Huerta
 **Domicilio:** Por confirmar
 **Teléfono:** Por confirmar
 
@@ -43,8 +43,8 @@ En adelante denominado como **"EL PRESTADOR"** o **"EL FOTÓGRAFO"**
 ## DATOS DEL EVENTO
 
 **Tipo de evento:** Boda (Ceremonia Religiosa y Recepción)
-**Fecha del evento:** 30 de Mayo de 2026
-**Nombre de los contrayentes:** Patricia Berenice Martinez Becerra & Mateus Sebastian Oliver Cordova Huerta
+**Fecha del evento:** 23 de Mayo de 2026
+**Nombre de los contrayentes:** Patricia Lupita Martinez Becerra & Mateus Sebastian Alan Cordova Huerta
 
 ### Ubicaciones
 
@@ -228,7 +228,7 @@ Ambas partes manifiestan que han leído y comprendido todas las cláusulas de es
 
 **Por LOS CONTRATANTES:**
 
-**Patricia Berenice Martinez Becerra**
+**Patricia Lupita Martinez Becerra**
 
 _______________________________
 Firma
@@ -237,7 +237,7 @@ Fecha: _______________________
 
 ---
 
-**Mateus Sebastian Oliver Cordova Huerta**
+**Mateus Sebastian Alan Cordova Huerta**
 
 _______________________________
 Firma
@@ -300,7 +300,7 @@ Fecha: _______________________
 **TEMÁTICA DEL EVENTO:** Por confirmar
 
 **NOTAS ADICIONALES:**
-- Referida por boda del 13 de diciembre en Salón El Mirador (hermano/cuñada de Berenice)
+- Referida por boda del 13 de diciembre en Salón El Mirador (hermano/cuñada de Lupita)
 - Se respeta el precio anterior de $6,000 por el paquete de foto y video
 - Cliente vive cerca del estudio (calle de abajo - La Veracruz)
 - Invitación web incluida: $500 adicionales

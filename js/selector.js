@@ -191,7 +191,7 @@ const photos = [
     'imagenes/foto7_0187.webp',
     'imagenes/foto7_0188.webp'
 ];
-const STORAGE_KEY = 'boda_berenice_oliver_photo_selections';
+const STORAGE_KEY = 'boda_lupita_alan_photo_selections';
 const LIMITES = {
     ampliacion: 1,
     impresion: 100,
@@ -554,7 +554,7 @@ function saveModalSelection() {
 // ========================================
 function exportToJSON() {
     const exportData = {
-        evento: 'Boda Berenice & Oliver',
+        evento: 'Boda Alan & Lupita',
         fecha_exportacion: new Date().toISOString(),
         total_fotos: photos.length,
         estadisticas: getStats(),
@@ -579,7 +579,7 @@ function exportToJSON() {
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `seleccion-fotos-boda-berenice-oliver-${new Date().toISOString().split('T')[0]}.json`;
+    a.download = `seleccion-fotos-boda-lupita-alan-${new Date().toISOString().split('T')[0]}.json`;
     a.click();
     URL.revokeObjectURL(url);
 

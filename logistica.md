@@ -1,17 +1,17 @@
 # 📋 LOGÍSTICA DEL EVENTO
-## Boda Berenice & Oliver - 30 de Mayo 2026
+## Boda Alan & Lupita - 30 de Mayo 2026
 
 ---
 
 ## 💑 DATOS DE LOS NOVIOS
 
 ### Novia
-- **Nombre:** Patricia Berenice Martinez Becerra
+- **Nombre:** Patricia Lupita Martinez Becerra
 - **Teléfono:** 477 591 6373
 - **Dirección:** Veracruz 1716, León, Guanajuato
 
 ### Novio
-- **Nombre:** Mateus Sebastian Oliver Cordova Huerta
+- **Nombre:** Mateus Sebastian Alan Cordova Huerta
 - **Teléfono:** Por confirmar
 - **Dirección:** Por confirmar
 
@@ -27,7 +27,7 @@
 ## 📅 CRONOGRAMA DEL EVENTO
 
 ### Fecha del Evento
-**30 de Mayo de 2026**
+**23 de Mayo de 2026**
 
 ### Ceremonia Religiosa
 - **Lugar:** Parroquia San Juan Bautista de la Salle
@@ -131,8 +131,8 @@
 ## 📞 CONTACTOS IMPORTANTES
 
 ### Novios
-- Berenice: 477 591 6373
-- Oliver: Por confirmar
+- Lupita: 477 591 6373
+- Alan: Por confirmar
 
 ### Fotografía y Video
 - Arturo Cruz: 477-920-3776
@@ -147,7 +147,7 @@
 
 ## 📝 NOTAS ADICIONALES
 
-1. **Invitación Digital:** Se ha creado una invitación web personalizada (boda-berenice-oliver.invitados.org)
+1. **Invitación Digital:** Se ha creado una invitación web personalizada (boda-alan-lupita.invitados.org)
 2. **Sesión Previa:** Coordinar con Arturo Cruz para la sesión fotográfica previa al evento (mínimo 15 días antes)
 3. **Videoclip:** El videoclip de la sesión previa se proyectará durante la recepción
 4. **Entregables:** Las fotos y video editado se entregarán 30-60 días después del evento

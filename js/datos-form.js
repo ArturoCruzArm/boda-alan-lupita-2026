@@ -20,7 +20,7 @@
       tiposEvento: ['xv','boda','bautizo','graduacion','cumpleanos','otro'],
       campos: [
         { key:'nombre',       label:'Nombre de la quinceañera',           type:'text',     ph:'Ej: Sheilyn Guadalupe Herrera Reynoso', tiposEvento:['xv'] },
-        { key:'nombre',       label:'Nombre de la novia',                type:'text',     ph:'Ej: Patricia Berenice Martínez',        tiposEvento:['boda'] },
+        { key:'nombre',       label:'Nombre de la novia',                type:'text',     ph:'Ej: Patricia Lupita Martínez',        tiposEvento:['boda'] },
         { key:'nombre',       label:'Nombre del festejado/a',            type:'text',     ph:'Nombre completo',                       tiposEvento:['bautizo','cumpleanos','graduacion','otro'] },
         { key:'fecha_nac',    label:'Fecha de nacimiento',               type:'date',     ph:'',                                      tiposEvento:['xv','bautizo','cumpleanos'] },
         { key:'nombre_2',     label:'Nombre del novio',                  type:'text',     ph:'Ej: Carlos Eduardo López',              tiposEvento:['boda'] },
